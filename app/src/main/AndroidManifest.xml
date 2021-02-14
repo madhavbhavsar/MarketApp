@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madapps.marketappprototype1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.admin.AllAdminActivity"></activity>
+        <activity
+            android:name=".activities.user.AllUserActivity"
+            android:theme="@style/MadStyle" />
+        <activity android:name=".activities.user.TodaysEntryActivity" />
+        <activity
+            android:name=".activities.user.ShowEntryActivity"
+            android:theme="@style/MadStyle" />
+        <activity android:name=".activities.admin.RandomQuery" />
+        <activity android:name=".activities.admin.ordertoday.TodaysOrder" />
+        <activity android:name=".activities.admin.summary.SummaryActivity" />
+        <activity android:name=".activities.admin.TodayOrders" />
+        <activity android:name=".activities.admin.AddUser" />
+        <activity android:name=".activities.ItemMaster" />
+        <activity android:name=".activities.user.NewEntry" />
+        <activity android:name=".activities.AdminActivity" />
+        <activity android:name=".activities.UserActivity" />
+        <activity android:name=".onetimelogin.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

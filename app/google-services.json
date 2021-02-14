@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1098658325448",
+    "project_id": "acmmarketapp",
+    "storage_bucket": "acmmarketapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098658325448:android:40f3718d1715726b1d16fd",
+        "android_client_info": {
+          "package_name": "com.madapps.marketappprototype1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098658325448-b6e72df8fpmjsddvioqubirg7hqdlfg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJkYLMNwwyTuddCd5xVeUSckEoqf1Yj8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098658325448-b6e72df8fpmjsddvioqubirg7hqdlfg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
