@@ -3,6 +3,8 @@ Market App for ACM
 
 An app for Wholesale markets and Retailers to get orders in Realtime. 
 
+Project Idea - https://docs.google.com/presentation/d/1fhNz8hHdt6yGXDW7Cehw66cjO6AZi7iEicssGZRWW2Q/edit?usp=drivesdk
+
 Features :-
 1. Login and Authentication feature with Firebase Authentication API.
 2. Records stored in Firestore NoSql Database. 
